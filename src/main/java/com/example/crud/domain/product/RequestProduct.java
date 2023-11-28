@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotNull;
 
 public record RequestProduct(
 
+        String id,
         @NotBlank
         String name,
         @NotNull
